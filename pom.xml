@@ -12,7 +12,6 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <opensearch.rest.version>2.5.0</opensearch.rest.version>
         <opensearch.java.version>2.2.0</opensearch.java.version>
         <junit.jupiter.version>5.9.1</junit.jupiter.version>
         <maven-plugin.version>3.0.0-M8</maven-plugin.version>
@@ -20,11 +19,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.opensearch.client</groupId>
-            <artifactId>opensearch-rest-client</artifactId>
-            <version>${opensearch.rest.version}</version>
-        </dependency>
         <dependency>
             <groupId>org.opensearch.client</groupId>
             <artifactId>opensearch-java</artifactId>
